@@ -1,12 +1,7 @@
-// sassy hover
-
-// Set the default text color to red (#FF0000)
+/* sassy Nested hover */
 button {
-    color: #FF0000;
-
-// Change the text color to green (#00FF00) on hover
-
-    &:hover {
-        color: #00FF00;
-    }
+  color: #FF0000;
+  &:hover {
+    color: #00FF00;
+  }
 }
